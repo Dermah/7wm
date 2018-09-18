@@ -16,6 +16,11 @@ const TileBase = styled.div`
 
   flex-grow: 0
   flex-shrink: 0
+
+  transition: all 0.5s;
+  &:hover {
+    transform: scale(1.1);
+  }
 `;
 
 const TileTitle = styled.h3`
