@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Channel7Logo snapshot test 1`] = `
+<img
+  alt="Channel 7 Logo"
+  className="sc-bdVaJa ldYOxM"
+  src="logo.png"
+/>
+`;

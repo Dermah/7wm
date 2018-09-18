@@ -17,7 +17,8 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.0"
+    "gh-pages": "^2.0.0",
+    "react-test-renderer": "^16.5.1"
   },
   "homepage": "http://dermah.github.io/7wm"
 }

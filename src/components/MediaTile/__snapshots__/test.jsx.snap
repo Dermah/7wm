@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MediaTile snapshot test 1`] = `
+<div
+  className="sc-bwzfXH jFvtQM"
+>
+  <h3
+    className="sc-htpNat zuFVL"
+  >
+    <img
+      alt="Channel 7 Logo"
+      className="sc-bxivhb hzIzrW sc-bdVaJa ldYOxM"
+      src="logo.png"
+    />
+  </h3>
+</div>
+`;
