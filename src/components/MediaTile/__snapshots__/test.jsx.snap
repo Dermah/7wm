@@ -2,7 +2,25 @@
 
 exports[`MediaTile snapshot test 1`] = `
 <div
-  className="sc-bwzfXH jFvtQM"
+  className="sc-bwzfXH bBjkSQ"
+  src={undefined}
+>
+  <h3
+    className="sc-htpNat zuFVL"
+  >
+    <img
+      alt="Channel 7 Logo"
+      className="sc-bxivhb hzIzrW sc-bdVaJa ldYOxM"
+      src="logo.png"
+    />
+  </h3>
+</div>
+`;
+
+exports[`MediaTile snapshot test with custom image 1`] = `
+<div
+  className="sc-bwzfXH dtlXoZ"
+  src="https://loremflickr.com/320/240/food,cook,kitchen/all"
 >
   <h3
     className="sc-htpNat zuFVL"

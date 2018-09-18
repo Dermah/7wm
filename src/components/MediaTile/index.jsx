@@ -7,7 +7,10 @@ const TileBase = styled.div`
   width: 630px;
   height: 354px;
   position: relative;
-  background-image: url("./tile.jpg");
+  background-image: url("${({ src }) => src || "./tile.jpg"}");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 `;
 
 const TileTitle = styled.h3`
@@ -31,8 +34,8 @@ const TitleLogo = styled(Channel7Logo)`
   margin-right: 0.5em;
 `;
 
-export default ({ title }) => (
-  <TileBase>
+export default ({ title, src }) => (
+  <TileBase src={src}>
     <TileTitle>
       <TitleLogo />
       {title}
