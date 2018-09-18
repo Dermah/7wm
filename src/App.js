@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import MediaTile from "./MediaTile";
+import MediaTile from "./components/MediaTile";
 
 class App extends Component {
   render() {
