@@ -7,10 +7,15 @@ const TileBase = styled.div`
   width: 630px;
   height: 354px;
   position: relative;
+  margin: 1em;
+
   background-image: url("${({ src }) => src || "./tile.jpg"}");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+
+  flex-grow: 0
+  flex-shrink: 0
 `;
 
 const TileTitle = styled.h3`
