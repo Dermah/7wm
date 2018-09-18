@@ -8,4 +8,6 @@ const StyledLogo = styled.img`
   height: 2em;
 `;
 
-export default () => <StyledLogo alt="Channel 7 Logo" src={Logo} />;
+export default ({ className }) => (
+  <StyledLogo className={className} alt="Channel 7 Logo" src={Logo} />
+);
