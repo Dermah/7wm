@@ -6,6 +6,7 @@ import Logo from "./logo.png";
 const StyledLogo = styled.img`
   width: 2em;
   height: 2em;
+  flex-shrink: 0;
 `;
 
 export default ({ className }) => (

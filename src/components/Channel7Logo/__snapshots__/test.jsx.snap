@@ -3,7 +3,7 @@
 exports[`Channel7Logo snapshot test 1`] = `
 <img
   alt="Channel 7 Logo"
-  className="sc-bdVaJa ldYOxM"
+  className="sc-bdVaJa dGtWke"
   src="logo.png"
 />
 `;
