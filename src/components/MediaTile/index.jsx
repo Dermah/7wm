@@ -1,10 +1,16 @@
 import * as React from "react";
 import styled from "styled-components";
 
+import styledBreakpoints from "../../utils/styledBreakpoints";
 import Channel7Logo from "../Channel7Logo";
 
 const TileBase = styled.div`
   width: 630px;
+
+  ${styledBreakpoints.desktop`width: 630px;`}
+  ${styledBreakpoints.tablet`width: 400px;`}
+  ${styledBreakpoints.phone`width: 200px;`}
+
   height: 354px;
   position: relative;
   margin: 1em;
