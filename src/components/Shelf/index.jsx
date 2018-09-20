@@ -7,4 +7,8 @@ export default styled.div`
   padding-right: 2em;
   display: flex;
   overflow: scroll;
+
+  &&::-webkit-scrollbar {
+    display: none;
+  }
 `;
