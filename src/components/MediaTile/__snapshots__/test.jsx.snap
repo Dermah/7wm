@@ -2,7 +2,7 @@
 
 exports[`MediaTile snapshot test 1`] = `
 <div
-  className="sc-bwzfXH eNaPxa"
+  className="sc-bwzfXH jdYsVk"
   src={undefined}
 >
   <h3
@@ -19,7 +19,7 @@ exports[`MediaTile snapshot test 1`] = `
 
 exports[`MediaTile snapshot test with custom image 1`] = `
 <div
-  className="sc-bwzfXH jNXDUX"
+  className="sc-bwzfXH kDvvKZ"
   src="https://loremflickr.com/320/240/food,cook,kitchen/all"
 >
   <h3
