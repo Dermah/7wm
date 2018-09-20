@@ -6,12 +6,25 @@ import Channel7Logo from "../Channel7Logo";
 
 const TileBase = styled.div`
   width: 630px;
-
-  ${styledBreakpoints.desktop`width: 630px;`}
-  ${styledBreakpoints.tablet`width: 400px;`}
-  ${styledBreakpoints.phone`width: 200px;`}
-
   height: 354px;
+  font-size: 16px;
+
+  ${styledBreakpoints.desktop`
+    width: 630px;
+    height: 354px;
+    font-size: 16px;
+  `}
+  ${styledBreakpoints.tablet`
+    width: 400px;
+    height: 225px;
+    font-size: 14px;
+  `}
+  ${styledBreakpoints.phone`
+    width: 250px;
+    height: 140px;
+    font-size: 10px;
+  `}
+
   position: relative;
   margin: 1em;
 
