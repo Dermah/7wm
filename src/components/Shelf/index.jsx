@@ -1,14 +1,6 @@
 import styled from "styled-components";
 
 export default styled.div`
-  margin-top: 4em;
-  margin-bottom: 4em;
-  padding-left: 2em;
-  padding-right: 2em;
+  margin: 4em;
   display: flex;
-  overflow: scroll;
-
-  &&::-webkit-scrollbar {
-    display: none;
-  }
 `;
